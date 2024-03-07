@@ -1,0 +1,704 @@
+/*navbar*/
+.navbar-nav.menu .nav-link 
+{
+    margin-right: 30px;
+}
+.nav-link
+{
+    color: grey;
+    font-family: secondfamily
+}
+#homeNav
+{
+    color: #0057e7;
+}
+#featuresNav:hover
+{
+    color: #d62d20;
+}
+#pricingNav:hover
+{
+    color: #008744;
+}
+#DisabledNav:hover
+{
+    color: 	#ffa700;
+}
+@font-face 
+{
+    font-family: myFirstFont;
+    src: url(/fonts/GoogleSansDisplay-Regular-v1.27.ttf);
+}
+@font-face 
+{
+    font-family: secondfamily;
+    src: url(/fonts/GoogleSansDisplay-Bold-v1.27.ttf);
+}
+.navbar-brand
+{
+    font-family: myFirstFont;
+    color: grey;
+}
+.navbar
+{
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #ffffff;
+}
+.myfont
+{
+    font-size: 10px;
+    text-align: left;
+    padding-left: 43px;
+    line-height: 0;
+}
+
+/*hero*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.context 
+{
+    background: #fff;
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top:30vh;
+    font-family: secondFamily;
+}
+.red
+{
+    color: #d62d20;
+}
+
+.blue
+{
+    color: #0057e7;
+}
+
+.yellow
+{
+    color: #ffa700;
+}
+
+.green
+{
+    color: #008744;
+}
+
+.context h1{
+    text-align: center;
+    color: #808080;
+    font-size: 50px;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.area
+{
+    background: #fff;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8); 
+    width: 100%;
+    height:100vh;
+    
+   
+}
+
+.circles
+{
+    position: absolute;
+    top: 20;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li
+{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(0,135,68,0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1)
+{
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+   background: rgba(214,45,32,1);
+}
+
+
+.circles li:nth-child(2)
+{
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+   background: rgba(0,87,231,1);
+}
+
+.circles li:nth-child(3)
+{
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+   background: rgba(255,167,0,1);
+}
+
+.circles li:nth-child(4)
+{
+    left: 15%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+   background: rgba(0,87,231,1);
+}
+
+.circles li:nth-child(5)
+{
+    left: 5%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+   background: rgba(0,87,231,1);
+}
+
+.circles li:nth-child(6)
+{
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+   background: rgba(255,167,0,1);
+}
+
+.circles li:nth-child(7){
+    left: 17%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 5s;
+   background: rgba(214,45,32,1);
+}
+
+.circles li:nth-child(8){
+    left: 7%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 7s;
+    animation-duration: 45s;
+   background: rgba(0,135,68,1);
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+   background: rgba(0,87,231,1);
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+   background: rgba(0,135,68,1);
+}
+
+.circles li:nth-child(11)
+{
+    left: 23%;
+    width: 85px;
+    height: 85px;
+    animation-delay: 0s;
+   background: rgba(214,45,32,1);
+}
+
+
+.circles li:nth-child(12)
+{
+    left: 13%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+   background: rgba(0,87,231,1);
+}
+
+.circles li:nth-child(13)
+{
+    left: 80%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+   background: rgba(255,167,0,1);
+}
+
+.circles li:nth-child(14)
+{
+    left: 7%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+   background: rgba(0,87,231,1);
+}
+
+.circles li:nth-child(15)
+{
+    left: 3%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+   background: rgba(0,87,231,1);
+}
+
+.circles li:nth-child(16)
+{
+    left: 90%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+   background: rgba(255,167,0,1);
+}
+
+.circles li:nth-child(17){
+    left: 95%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 5s;
+   background: rgba(214,45,32,1);
+}
+
+.circles li:nth-child(18){
+    left: 77%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 7s;
+    animation-duration: 45s;
+   background: rgba(0,135,68,1);
+}
+
+.circles li:nth-child(19){
+    left: 87%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+   background: rgba(0,87,231,1);
+}
+
+.circles li:nth-child(20){
+    left: 83%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+   background: rgba(0,135,68,1);
+}
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 1;
+        border-radius: 50%;
+    }
+
+}
+.bigcontainer
+{
+    width: 100%; /* Or set a specific width */
+     background-color: #fff; /* Set background color if needed */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 1.0);
+     overflow-x: hidden;
+     overflow-y: hidden;
+}
+/*button*/
+.rounded-button 
+{
+    background-color: #3498db; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    position: absolute;
+    bottom: 50px;
+    left: 65px;
+    z-index: 1;
+    font-family: myFirstFont;
+}
+
+/* cards */
+.au1
+{
+    font-family: secondfamily;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    left: 40px;
+    color: #404040;
+}
+.au2
+{
+    font-family: secondfamily;
+    padding-left: 50px;
+    line-height: 0;
+    color: #404040;
+}
+:root
+{
+    --primary-color: #635bff;
+    --secondary: #0a2540;
+}
+body
+{
+    display: block;
+    width: 100%;
+    padding-top: 0px;
+    font-family: myFirstFamily;
+    background-color: #0057e7;
+}
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 80px;
+    gap: 16px;
+}
+.content
+{
+    padding: 24px;
+    flex-grow: 1;
+    height: 260px;
+    font-family: myFirstFont;
+}
+.card
+{
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: 0px 18px 36px -18px rgba(0,0,0,0.1),0px 30px 45px -30px rgba(50,50,93,0.25);
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+    flex-basis: 330px;
+    padding: 4px;
+    min-height: 500px;
+    transition: all 0.2s ease-in-out;
+    margin-right: 60px;
+    position: relative;
+    bottom: 10px;
+
+}
+.content > h1
+{
+    font-size: 32px;
+    margin-bottom: 16px;
+    line-height: 1.384615385;
+}
+.content > p
+{
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 500;
+}
+.content a
+{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 800;
+}
+.content a:hover
+{
+    color: #0a2540;
+}
+.card-background
+{
+    height: 200px;
+    transition: all 0.2s ease-in-out;
+}
+.card:hover .card-background
+{
+    height: 160px;
+}
+.card-background img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card:hover .action-bottom-bar a 
+{
+    opacity: 1;
+}
+.action-bottom-bar
+{
+    display: flex;
+    font-size: 18px;
+    height: 42px;
+    width: 100%;
+    font-family: myFirstFont;
+}
+.action-bottom-bar a
+{
+    display: flex;
+    gap: 6px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 800;
+    opacity: 0;
+    padding: 0 24px;
+    transition: all 0.2s ease-in-out;
+}
+.action-bottom-bar a:hover
+{
+    color: var(--secondary);
+}
+.action-bottom-bar a:hover img
+{
+    color: var(--primary-color);
+}
+.action-bottom-bar a img 
+{
+    transition: all 0.2s ease-in-out;
+}
+
+
+@font-face {
+    font-family: thirdfamily;
+    src: url(/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.aboutus 
+{
+    position: relative; /* To make .svgcontainer relative to this div */
+}
+  
+.svgcontainer 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+.svgcontainer img 
+{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+}
+  
+  .svgcontainer img:nth-child(1) 
+{
+  position: absolute;
+  top: 20%; /* Adjust vertically centered positioning */
+  left: 70%; /* Adjust horizontally centered positioning */
+  transform: translate(-45%, -80%); /* Center the SVG */
+  max-width: calc(100% - 20px); /* Adjust margin calculation */
+  max-height: calc(100% - 20px); /* Adjust margin calculation */
+  object-fit: contain; /* Ensure the entire SVG is visible */
+  opacity: 1;
+}
+  
+.svgcontainer img:nth-child(2) 
+{
+    position: absolute;
+    top: 25%; /* Adjust vertically centered positioning */
+    left: 0%; /* Adjust horizontally centered positioning */
+    transform: translate(-45%, -80%); /* Center the SVG */
+    max-width: calc(100% - 20px); /* Adjust margin calculation */
+    max-height: calc(100% - 20px); /* Adjust margin calculation */
+    object-fit: contain; /* Ensure the entire SVG is visible */
+    transform: rotate(45deg);
+    opacity: 1;
+}
+  
+  
+.svgcontainer img:nth-child(3) 
+{
+    position: absolute;
+  bottom: 10%; /* Adjust vertically centered positioning */
+  right: 70%; /* Adjust horizontally centered positioning */
+  transform: translate(-45%, -80%); /* Center the SVG */
+  max-width: calc(100% - 20px); /* Adjust margin calculation */
+  max-height: calc(100% - 20px); /* Adjust margin calculation */
+  object-fit: contain; /* Ensure the entire SVG is visible */
+  opacity: 0.5;
+}
+  
+.svgcontainer img:nth-child(4) 
+{
+    position: absolute;
+    bottom:75%; /* Adjust vertically centered positioning */
+    left: 30%; /* Adjust horizontally centered positioning */
+    transform: translate(-45%, -80%); /* Center the SVG */
+    max-width: calc(100% - 20px); /* Adjust margin calculation */
+    max-height: calc(100% - 20px); /* Adjust margin calculation */
+    object-fit: contain; /* Ensure the entire SVG is visible */
+    opacity: 0.5;
+    transform: rotate(45deg);
+}
+.svgcontainer img:nth-child(5) 
+{
+        position: absolute;
+        top: 75%; /* Adjust vertically centered positioning */
+        left: 45%; /* Adjust horizontally centered positioning */
+        transform: translate(-45%, -80%); /* Center the SVG */
+        max-width: calc(100% - 20px); /* Adjust margin calculation */
+        max-height: calc(100% - 20px); /* Adjust margin calculation */
+        object-fit: contain; /* Ensure the entire SVG is visible */
+        transform: rotate(45deg);
+        opacity: 0.2; 
+}
+        
+.svgcontainer img:nth-child(6)
+{
+          position: absolute;
+          top: 90%; /* Adjust vertically centered positioning */
+          left: 90%; /* Adjust horizontally centered positioning */
+          transform: translate(-45%, -80%); /* Center the SVG */
+          max-width: calc(100% - 20px); /* Adjust margin calculation */
+          max-height: calc(100% - 20px); /* Adjust margin calculation */
+          object-fit: contain; /* Ensure the entire SVG is visible */
+          opacity: 1;
+}
+        
+        
+.svgcontainer img:nth-child(7) 
+{
+          position: absolute;
+        top: 35%; /* Adjust vertically centered positioning */
+        left: 80%; /* Adjust horizontally centered positioning */
+        transform: translate(-45%, -80%); /* Center the SVG */
+        max-width: calc(100% - 20px); /* Adjust margin calculation */
+        max-height: calc(100% - 20px); /* Adjust margin calculation */
+        object-fit: contain; /* Ensure the entire SVG is visible */
+        transform: rotate(65deg);
+        opacity: 0.2;
+}
+        
+.svgcontainer img:nth-child(8) 
+{
+          position: absolute;
+          top: 95%; /* Adjust vertically centered positioning */
+          left: 5%; /* Adjust horizontally centered positioning */
+          transform: translate(-45%, -80%); /* Center the SVG */
+          max-width: calc(100% - 20px); /* Adjust margin calculation */
+          max-height: calc(100% - 20px); /* Adjust margin calculation */
+          object-fit: contain; /* Ensure the entire SVG is visible */
+          opacity: 0.5;
+}
+
+
+/*footer*/
+
+.footername
+{
+    font-family: myFirstFont;
+    font-size: larger;
+    color: grey;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: black;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+

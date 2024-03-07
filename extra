@@ -1,0 +1,457 @@
+  <!--Timeline-->
+      
+
+  <div class="timeline">
+    <h2 class="events" style="position: relative; bottom: 50px;">Events</h2>
+      <!--first-->
+      <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1" style="position: relative; bottom: 100px;">
+          <div class="timeline__event__icon">
+              <!-- <i class="lni-sport"></i>-->
+  
+          </div>
+          <div class="timeline__event__date">
+              <img src="/svg/flutter-svgrepo-com.svg" style="height: 150px; width: 120px;">
+          </div>
+          <div class="timeline__event__content ">
+              <div class="timeline__event__title">
+                  Flutter Workshop()
+              </div>
+              <div class="timeline__event__description">
+                  <p>The Flutter Workshop was a success, offering participants an enriching experience exploring Flutter – Google's popular open-source UI toolkit. The event covered various topics, from fundamental concepts to hands-on practice in app development.</p>
+              </div>
+          </div>
+      </div>
+  
+      <!--second-->
+  
+      <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2" style="position: relative; bottom: 100px;">
+          <div class="timeline__event__icon">
+              <!-- <i class="lni-sport"></i>-->
+  
+          </div>
+          <div class="timeline__event__date">
+              <img src="/svg/Video game developer-rafiki.svg" style="height: 150px; width: 120px;">
+          </div>
+          <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                  Intro To Game Dev
+              </div>
+              <div class="timeline__event__description">
+                  <p>The dynamic workshop immersed participants in game creation, focusing on prominent tools like Pygame, Piskell, and SFXR. Despite an initial setback, it fostered creativity in sprite design and 8-bit audio generation.</p>
+              </div>
+          </div>
+      </div>
+  
+      <!--third-->
+  
+      <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3" style="position: relative; bottom: 100px;">
+          <div class="timeline__event__icon">
+              <!-- <i class="lni-sport"></i>-->
+  
+          </div>
+          <div class="timeline__event__date">
+              <img src="/svg/game-developement-svgrepo-com.svg" style="height: 150px; width: 120px;">
+          </div>
+          <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                  Intro To Game Dev
+              </div>
+              <div class="timeline__event__description">
+                  <p>GDSC Game Dev organized a workshop titled "Customizing the Dino Game with Pygame, Sfxr, and Piskel," immersing participants in game development using Python. The session explored Pygame, Sfxr for sound effects, and Piskel for asset customization. Over 25 participants joined, creating a vibrant learning environment.</p>
+              </div>
+  
+          </div>
+      </div>
+  
+      <!--forth-->
+  
+      <div class="timeline__event animated fadeInUp timeline__event--type4" style="position: relative; bottom: 100px;">
+          <div class="timeline__event__icon">
+              <!-- <i class="lni-sport"></i>-->
+  
+          </div>
+          <div class="timeline__event__date">
+              <img src="/svg/undraw_code_review_re_woeb.svg" style="height: 150px; width: 120px;">
+          </div>
+          <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                  Intro To Open Source
+              </div>
+              <div class="timeline__event__description">
+                  <p>The Open-Source Workshop, a collaboration between the Symbiosis Open-Source Society and Google Developer Student Clubs (GDSC), aimed to promote open-source software development and equip participants with essential skills. It received an enthusiastic response from students and tech enthusiasts.</p>
+              </div>
+          </div>
+      </div>
+  
+      <!--first-->
+      <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1" style="position: relative; bottom: 100px;">
+          <div class="timeline__event__icon ">
+              <!-- <i class="lni-sport"></i>-->
+  
+          </div>
+          <div class="timeline__event__date">
+              <img src="/svg/undraw_fitness_tracker_3033.svg" style="height: 150px; width: 120px;">
+          </div>
+          <div class="timeline__event__content ">
+              <div class="timeline__event__title">
+                  Ai In Healthcare
+              </div>
+              <div class="timeline__event__description">
+                  <p>GDSC organized "The AI in Healthcare Workshop: from Python Basics to Neural Networks" for a diverse audience, including beginners and those seeking to reinforce their AI fundamentals in healthcare. The event received an overwhelming response from students and tech enthusiasts.</p>
+              </div>
+          </div>
+      </div>
+
+
+      <!--css-->
+      * 
+{
+    box-sizing: border-box;
+}
+          
+html 
+{
+    font-size: 14px;
+}
+          
+body 
+{
+    background: #fff;
+    font-family: "Open Sans", sans-serif;
+    color: #525f7f;
+}
+          
+h2 
+{
+     margin: 5%;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 100;
+}
+          
+h1 
+{
+    margin: 4%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 10;
+    top: 0;
+}
+          
+.timeline
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    position: relative;
+    font-family: myFirstFont;
+}
+.timeline__event 
+{
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    margin: 20px 0;
+    border-radius: 6px;
+    align-self: center;
+    width: 50vw;
+}
+.timeline__event:nth-child(2n+1) 
+{
+    flex-direction: row-reverse;
+}
+.timeline__event:nth-child(2n+1) .timeline__event__date 
+{
+    border-radius: 0 6px 6px 0;
+}
+.timeline__event:nth-child(2n+1) .timeline__event__content 
+{
+    border-radius: 6px 0 0 6px;
+}
+.timeline__event:nth-child(2n+1) .timeline__event__icon:before 
+{
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: #87bbfe;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    right: auto;
+    z-index: -1;
+    transform: translateX(-50%);
+    -webkit-animation: fillTop 2s forwards 4s ease-in-out;
+    animation: fillTop 2s forwards 4s ease-in-out;
+}
+.timeline__event:nth-child(2n+1) .timeline__event__icon:after
+{
+    content: "";
+     width: 100%;
+    height: 2px;
+    background: #87bbfe;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 50%;
+    left: auto;
+    transform: translateY(-50%);
+    -webkit-animation: fillLeft 2s forwards 4s ease-in-out;
+    animation: fillLeft 2s forwards 4s ease-in-out;
+}
+.timeline__event__title
+{
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0057e7;
+    letter-spacing: 1.5px;
+}
+.timeline__event__content 
+{
+    padding: 20px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    background: #fff;
+    width: calc(40vw - 84px);
+    border-radius: 0 6px 6px 0;
+}
+.timeline__event__date 
+{
+    color: #87bbfe;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: #0057e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 0 20px;
+    border-radius: 6px 0 0 6px;
+}
+.timeline__event__icon 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #87bbfe;
+    padding: 20px;
+    align-self: center;
+    margin: 0 20px;
+    background: #87bbfe;/*circle*/
+    border-radius: 100%;
+    width: 40px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    padding: 40px;
+    height: 40px;
+    position: relative;
+}
+.timeline__event__icon i
+{
+    font-size: 32px;
+}
+.timeline__event__icon:before 
+{
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: #87bbfe;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-animation: fillTop 2s forwards 4s ease-in-out;
+    animation: fillTop 2s forwards 4s ease-in-out;
+}
+.timeline__event__icon:after 
+{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #87bbfe;
+    position: absolute;
+    left: 0%;
+    z-index: -1;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-animation: fillLeftOdd 2s forwards 4s ease-in-out;
+    animation: fillLeftOdd 2s forwards 4s ease-in-out;
+}
+.timeline__event__description 
+{
+    flex-basis: 100%;
+}
+.timeline__event--type2:after
+{
+    background: #555ac0;
+}
+.timeline__event--type2 .timeline__event__date 
+{
+    color: #87bbfe;
+    background: #ffa700;
+}
+.timeline__event--type2:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type2:nth-child(2n+1) .timeline__event__icon:after 
+{
+    background: #fbec5d;
+}
+.timeline__event--type2 .timeline__event__icon 
+{
+    background: #fbec5d;
+    color: #fbec5d;
+}
+.timeline__event--type2 .timeline__event__icon:before, .timeline__event--type2 .timeline__event__icon:after 
+{
+    background: #fbec5d;
+}
+.timeline__event--type2 .timeline__event__title 
+{
+    color: #ffa700;
+}
+.timeline__event--type3:after 
+{
+    background: #24b47e;
+}
+.timeline__event--type3 .timeline__event__date
+{
+    color: #aff1b6;
+    background-color: #008744;
+}
+.timeline__event--type3:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type3:nth-child(2n+1) .timeline__event__icon:after 
+{
+    background: #aff1b6;
+}
+.timeline__event--type3 .timeline__event__icon 
+{
+    background: #aff1b6;
+    color: #24b47e;
+}
+.timeline__event--type3 .timeline__event__icon:before, .timeline__event--type3 .timeline__event__icon:after
+{
+    background: #aff1b6;
+}
+.timeline__event--type3 .timeline__event__title 
+{
+    color: #24b47e;
+}
+.timeline__event:last-child .timeline__event__icon:before 
+{
+    content: none;
+}
+/*jmefiu*/
+.timeline__event--type4:after 
+{
+    background: black;
+}
+.timeline__event--type4 .timeline__event__date
+{
+    color: #aff1b6;
+    background-color: #d62d20;
+}
+.timeline__event--type4:nth-child(2n+1) .timeline__event__icon:before, .timeline__event--type4:nth-child(2n+1) .timeline__event__icon:after 
+{
+    background: #f88379;
+}
+.timeline__event--type4 .timeline__event__icon 
+{
+    background: #f88379;
+    color: #f88379;
+}
+.timeline__event--type4 .timeline__event__icon:before, .timeline__event--type4 .timeline__event__icon:after
+{
+    background: #f88379;
+}
+.timeline__event--type4 .timeline__event__title 
+{
+    color: #d62d20;
+}
+.timeline__event:last-child .timeline__event__icon:before 
+{
+    content: none;
+}
+          
+@media (max-width: 786px) 
+{
+    .timeline__event 
+    {
+        flex-direction: column;
+        align-self: center;
+    }
+    .timeline__event__content 
+    {
+        width: 100%;
+    }
+    .timeline__event__icon 
+    {
+        border-radius: 6px 6px 0 0;
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+    }
+    .timeline__event__icon:before, .timeline__event__icon:after 
+    {
+        display: none;
+    }
+    .timeline__event__date 
+    {
+        border-radius: 0;
+        padding: 20px;
+    }
+    .timeline__event:nth-child(2n+1) 
+    {
+        flex-direction: column;
+        align-self: center;
+    }
+    .timeline__event:nth-child(2n+1) .timeline__event__date 
+    {
+        border-radius: 0;
+        padding: 20px;
+    }
+    .timeline__event:nth-child(2n+1) .timeline__event__icon 
+    {
+        border-radius: 6px 6px 0 0;
+        margin: 0;
+    }
+}
+@-webkit-keyframes fillLeft 
+{
+    100% 
+    {
+        right: 100%;
+    }
+}
+@keyframes fillLeft 
+{
+    100% 
+    {
+        right: 100%;
+    }
+}
+@-webkit-keyframes fillTop 
+{
+    100% 
+    {
+        top: 100%;
+    }
+}
+@keyframes fillTop
+{
+    100%
+    {
+        top: 100%;
+    }
+}
+@-webkit-keyframes fillLeftOdd 
+{
+    100% 
+    {
+        left: 100%;
+    }
+}
+@keyframes fillLeftOdd 
+{
+    100% 
+    {
+        left: 100%;
+    }
+}
+
