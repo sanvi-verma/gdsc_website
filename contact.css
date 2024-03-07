@@ -52,6 +52,7 @@
     padding-left: 43px;
     line-height: 0;
 }
+/*contact*/
 *, *:before, *:after {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -283,6 +284,26 @@
       display: none;
     }
   }
+  .contactsvg img {
+    width: 100%; /* Set the width to 100% */
+    height: auto; /* Allow the height to adjust proportionally */
+    max-width: 60%; /* Limit the width to the container's width */
+    max-height:60%; /* Limit the height to the container's height */
+    position: absolute;
+    top: 160px; /* Adjust top positioning */
+    left: -40px; /* Adjust left positioning */
+  }
+  
+  @media (max-width: 768px) {
+    .contactsvg img {
+      max-width: 20%;
+      max-height: 20%;
+      top: 10%; /* Adjust top positioning for smaller screens */
+      left: 65%; /* Adjust left positioning for smaller screens */
+    }
+  }
+  
+ 
   
   @media screen and (max-width: 600px) {
     .screen-body {
@@ -293,7 +314,8 @@
       padding: 0;
     }
   }
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+ 
+/*footer*/
 
 .footername
 {
@@ -323,7 +345,10 @@
   margin: 10px 0;
   flex-wrap: wrap;
 }
-
+.footerlogo
+{
+    display: flex;
+}
 .social-icon__item,
 .menu__item {
   list-style: none;
@@ -361,4 +386,3 @@
   font-size: 1rem;
   font-weight: 300;
 }
-

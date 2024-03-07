@@ -534,7 +534,7 @@ opacity: 0.5;
     float: left;
     margin: 15px;
     padding: 10px;
-    font-size: 35px;
+    font-size: 15px;
     line-height: 35px;
     font-weight: 600;
     background: rgba(0, 0, 0, 0.17);
@@ -742,8 +742,7 @@ opacity: 0.5;
       visibility: hidden;
     }
   }
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
-
+/*footer*/
 .footername
 {
     font-family: myFirstFont;
@@ -772,7 +771,10 @@ opacity: 0.5;
   margin: 10px 0;
   flex-wrap: wrap;
 }
-
+.footerlogo
+{
+    display: flex;
+}
 .social-icon__item,
 .menu__item {
   list-style: none;
@@ -810,4 +812,5 @@ opacity: 0.5;
   font-size: 1rem;
   font-weight: 300;
 }
+
 

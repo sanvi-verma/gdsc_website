@@ -67,9 +67,11 @@
     display: block;
     margin: auto;
     width: 100%;
-    position: absolute;
-    top:30vh;
+    position: relative;
+    margin-top: 22vh;
+    z-index: -1;
     font-family: secondFamily;
+
 }
 .red
 {
@@ -105,7 +107,9 @@
 
 .area
 {
-    background: #fff;  
+    position: absolute;
+
+    /* background: #fff;   */
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8); 
     width: 100%;
     height:100vh;
@@ -116,8 +120,6 @@
 .circles
 {
     position: absolute;
-    top: 20;
-    left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -337,8 +339,8 @@
 }
 .bigcontainer
 {
-    width: 100%; /* Or set a specific width */
-     background-color: #fff; /* Set background color if needed */
+    width: 100%; 
+     background-color: #fff; 
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 1.0);
      overflow-x: hidden;
      overflow-y: hidden;
@@ -346,17 +348,15 @@
 /*button*/
 .rounded-button 
 {
-    background-color: #3498db; 
+    background-color: #3498db;  
     color: white; 
     padding: 10px 20px; 
     border: none; 
     border-radius: 20px; 
     cursor: pointer; 
-    position: absolute;
-    bottom: 50px;
-    left: 65px;
     z-index: 1;
     font-family: myFirstFont;
+    margin-top: 30px;
 }
 
 /* cards */
@@ -387,7 +387,6 @@ body
     width: 100%;
     padding-top: 0px;
     font-family: myFirstFamily;
-    background-color: #0057e7;
 }
 *
 {
@@ -410,7 +409,7 @@ body
     padding: 24px;
     flex-grow: 1;
     height: 260px;
-    font-family: myFirstFont;
+    font-family: myFirstFont;   
 }
 .card
 {
@@ -512,7 +511,7 @@ body
 
 .aboutus 
 {
-    position: relative; /* To make .svgcontainer relative to this div */
+    position: relative; 
 }
   
 .svgcontainer 
@@ -534,24 +533,24 @@ body
   .svgcontainer img:nth-child(1) 
 {
   position: absolute;
-  top: 20%; /* Adjust vertically centered positioning */
-  left: 70%; /* Adjust horizontally centered positioning */
-  transform: translate(-45%, -80%); /* Center the SVG */
-  max-width: calc(100% - 20px); /* Adjust margin calculation */
-  max-height: calc(100% - 20px); /* Adjust margin calculation */
-  object-fit: contain; /* Ensure the entire SVG is visible */
+  top: 20%; 
+  left: 70%;
+  transform: translate(-45%, -80%); 
+  max-width: calc(100% - 20px);
+  max-height: calc(100% - 20px); 
+  object-fit: contain; 
   opacity: 1;
 }
   
 .svgcontainer img:nth-child(2) 
 {
     position: absolute;
-    top: 25%; /* Adjust vertically centered positioning */
-    left: 0%; /* Adjust horizontally centered positioning */
-    transform: translate(-45%, -80%); /* Center the SVG */
-    max-width: calc(100% - 20px); /* Adjust margin calculation */
-    max-height: calc(100% - 20px); /* Adjust margin calculation */
-    object-fit: contain; /* Ensure the entire SVG is visible */
+    top: 25%; 
+    left: 0%; 
+    transform: translate(-45%, -80%); 
+    max-width: calc(100% - 20px); 
+    max-height: calc(100% - 20px);
+    object-fit: contain; 
     transform: rotate(45deg);
     opacity: 1;
 }
@@ -560,36 +559,36 @@ body
 .svgcontainer img:nth-child(3) 
 {
     position: absolute;
-  bottom: 10%; /* Adjust vertically centered positioning */
-  right: 70%; /* Adjust horizontally centered positioning */
-  transform: translate(-45%, -80%); /* Center the SVG */
-  max-width: calc(100% - 20px); /* Adjust margin calculation */
-  max-height: calc(100% - 20px); /* Adjust margin calculation */
-  object-fit: contain; /* Ensure the entire SVG is visible */
+  bottom: 10%;
+  right: 70%;
+  transform: translate(-45%, -80%); 
+  max-width: calc(100% - 20px); 
+  max-height: calc(100% - 20px); 
+  object-fit: contain; 
   opacity: 0.5;
 }
   
 .svgcontainer img:nth-child(4) 
 {
     position: absolute;
-    bottom:75%; /* Adjust vertically centered positioning */
-    left: 30%; /* Adjust horizontally centered positioning */
-    transform: translate(-45%, -80%); /* Center the SVG */
-    max-width: calc(100% - 20px); /* Adjust margin calculation */
-    max-height: calc(100% - 20px); /* Adjust margin calculation */
-    object-fit: contain; /* Ensure the entire SVG is visible */
+    bottom:75%;
+    left: 30%; 
+    transform: translate(-45%, -80%); 
+    max-width: calc(100% - 20px); 
+    max-height: calc(100% - 20px);
+    object-fit: contain;
     opacity: 0.5;
     transform: rotate(45deg);
 }
 .svgcontainer img:nth-child(5) 
 {
         position: absolute;
-        top: 75%; /* Adjust vertically centered positioning */
-        left: 45%; /* Adjust horizontally centered positioning */
-        transform: translate(-45%, -80%); /* Center the SVG */
-        max-width: calc(100% - 20px); /* Adjust margin calculation */
-        max-height: calc(100% - 20px); /* Adjust margin calculation */
-        object-fit: contain; /* Ensure the entire SVG is visible */
+        top: 75%; 
+        left: 45%; 
+        transform: translate(-45%, -80%);
+        max-width: calc(100% - 20px); 
+        max-height: calc(100% - 20px);
+        object-fit: contain;
         transform: rotate(45deg);
         opacity: 0.2; 
 }
@@ -597,12 +596,12 @@ body
 .svgcontainer img:nth-child(6)
 {
           position: absolute;
-          top: 90%; /* Adjust vertically centered positioning */
-          left: 90%; /* Adjust horizontally centered positioning */
-          transform: translate(-45%, -80%); /* Center the SVG */
-          max-width: calc(100% - 20px); /* Adjust margin calculation */
-          max-height: calc(100% - 20px); /* Adjust margin calculation */
-          object-fit: contain; /* Ensure the entire SVG is visible */
+          top: 90%; 
+          left: 90%; 
+          transform: translate(-45%, -80%); 
+          max-width: calc(100% - 20px); 
+          max-height: calc(100% - 20px); 
+          object-fit: contain; 
           opacity: 1;
 }
         
@@ -610,12 +609,12 @@ body
 .svgcontainer img:nth-child(7) 
 {
           position: absolute;
-        top: 35%; /* Adjust vertically centered positioning */
-        left: 80%; /* Adjust horizontally centered positioning */
-        transform: translate(-45%, -80%); /* Center the SVG */
-        max-width: calc(100% - 20px); /* Adjust margin calculation */
-        max-height: calc(100% - 20px); /* Adjust margin calculation */
-        object-fit: contain; /* Ensure the entire SVG is visible */
+        top: 35%;
+        left: 80%; 
+        transform: translate(-45%, -80%); 
+        max-width: calc(100% - 20px);
+        max-height: calc(100% - 20px);
+        object-fit: contain; 
         transform: rotate(65deg);
         opacity: 0.2;
 }
@@ -623,12 +622,12 @@ body
 .svgcontainer img:nth-child(8) 
 {
           position: absolute;
-          top: 95%; /* Adjust vertically centered positioning */
-          left: 5%; /* Adjust horizontally centered positioning */
-          transform: translate(-45%, -80%); /* Center the SVG */
-          max-width: calc(100% - 20px); /* Adjust margin calculation */
-          max-height: calc(100% - 20px); /* Adjust margin calculation */
-          object-fit: contain; /* Ensure the entire SVG is visible */
+          top: 95%;
+          left: 5%; 
+          transform: translate(-45%, -80%); 
+          max-width: calc(100% - 20px); 
+          max-height: calc(100% - 20px); 
+          object-fit: contain; 
           opacity: 0.5;
 }
 
@@ -663,7 +662,10 @@ body
   margin: 10px 0;
   flex-wrap: wrap;
 }
-
+.footerlogo
+{
+    display: flex;
+}
 .social-icon__item,
 .menu__item {
   list-style: none;
